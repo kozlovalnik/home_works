@@ -14,3 +14,10 @@ if __name__ == '__main__':
     print_hi('PyCharm')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
+example = 'Топинамбур'
+print(example[0])
+print(example[-1])
+print(example[5:])
+print(example[::-1])
+print(example[1::2])
