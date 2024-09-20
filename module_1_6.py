@@ -8,8 +8,9 @@ print(my_dict.get('sasha', 'Нет такого в справочнике!'))
 
 my_dict['Katy'] = 2011
 my_dict['Lisa'] = 2011
-del my_dict['Lola']
 print(my_dict)
+deleted_pair = my_dict.pop('Lola')
+print('Значение из удаленной пары:',deleted_pair)
 
 # Работа с множествами
 
